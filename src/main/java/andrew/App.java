@@ -5,6 +5,13 @@ public class App {
         System.out.println("Hello World ");
         greet("asdfghj");
         //System.out.println("message: " + msg);
+
+        int a = 10;
+        int b = 20;
+        int c = 22;
+
+        int total = sum(a, b, c);
+        System.out.println("sum of 3 numbers: " + total);
     }
 
     public static String greet(String name) {
@@ -12,4 +19,16 @@ public class App {
         System.out.println(sum);
         return "Hello " + name + sum;
     }
+
+    public static int sum(int a, int b, int c) {
+       int sum = a + b + c;
+       return sum;
+
+    }
+
+
+
+
+
+
 }
